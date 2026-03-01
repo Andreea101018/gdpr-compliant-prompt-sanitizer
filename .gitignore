@@ -1,0 +1,63 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# -----------------------
+# Node / Frontend
+# -----------------------
+node_modules/
+.next/
+dist/
+build/
+
+# -----------------------
+# Model Weights (CRITICAL)
+# -----------------------
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+checkpoint-*/
+runs/
+bert/mbert/
+bert/ml-ner-model/
+
+# -----------------------
+# HuggingFace / Cache
+# -----------------------
+.cache/
+hf_cache/
+*.json.lock
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
+
+# -----------------------
+# Databases
+# -----------------------
+*.db
+*.sqlite3
+
+# -----------------------
+# OS / Editor
+# -----------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------
+# Evaluation artifacts
+# -----------------------
+allfiles.txt
