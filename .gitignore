@@ -1,0 +1,44 @@
+# BERT training artifacts
+bert/ml-ner-model/checkpoint-*/
+bert/ml-ner-model/runs/
+*.pt
+*.pth
+optimizer.pt
+scheduler.pt
+training_args.bin
+
+# Frontend
+frontend/.next/
+frontend/node_modules/
+
+# Python
+backend/venv/
+.venv/
+__pycache__/
+*.pyc
+
+# DB
+*.db
+*.sqlite3
+
+# Model artifacts
+bert/ml-ner-model/
+bert/mbert/
+*.safetensors
+*.pt
+*.bin
+runs/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+backend/venv/
+
+# Database
+*.db
+
